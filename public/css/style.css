@@ -1,0 +1,47 @@
+body {
+    background-color : #1f1b24;
+    margin: 0;
+    padding: 0;
+}
+* {
+    font-family : sans-serif,Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+.container {
+    max-width : 1000px;
+    margin : 50px auto;
+}
+h1,h2,h3 {
+    color : white;
+}
+button {
+    padding : 10px 20px;
+    background-color : white;
+    color : black;
+    border : none;
+    outline : none;
+    margin : 25px 0;
+}
+ul {
+    display : inline-block;
+    padding : 20px 0;
+}
+li {
+    display: inline-block;
+    margin-right : 10px;
+
+}
+a {
+    text-decoration: none;
+    color : white;
+}
+.error404 {
+    position : absolute;
+    left :50%;
+    top : 50%;
+    transform: translate(-50%,-50%);
+}
+.profile {
+    width : 350px;
+    object-fit: cover;
+}
